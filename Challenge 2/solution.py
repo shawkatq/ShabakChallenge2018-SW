@@ -1,7 +1,6 @@
 import base64
 import json
 
-# return the gimatric value of a unicode char
 def g(c):
     if c.lower() == "u05d0":
         return 1
@@ -50,11 +49,9 @@ def g(c):
     else :
         return 0
 
-# append 'u05' to first 2 chars in x
 def c(x):
      return 'u05'+x[:2]
 
-# look for u05xx unicodes, return there gimatric sum
 def findUnicodesAndCalcSum(mystring):
     uss = mystring.split("u05")
     uss.pop(0)
@@ -65,7 +62,8 @@ def findUnicodesAndCalcSum(mystring):
     return sum
 
 
-# return the median
+
+
 def median(lst):
     n = len(lst)
     if n < 1:
@@ -75,7 +73,6 @@ def median(lst):
     else:
             return sum(sorted(lst)[n//2-1:n//2+1])/2.0
 
-# main function, calc the missing values, find the median, and find the sum of values below median, print the result encoded base64
 def calc():
 	with open('data.json') as fjson:
 		data = json.load(fjson)
