@@ -75,7 +75,7 @@ see the solution code in Python.
 This one is not easy, read the instructions carefully, now we got a big csv file which contains a log of activities of users on the net. and we have a list of users that know as suspects.
 You can download the log from: https://drive.google.com/open?id=1mucrMI7Pm_tHKwI3BjOFBVXvQCmdnO9-
 
-First, let's separate the suspects apart from the others and put them in a different two files. ok, now we need to look at the suspects activities, if we sort the file by "userid" and "date", we will see that the suspects have a non-constant number of activities each day, with a concentration of most of the activities in 2-3 days, interesting, so what about examin this behavior on others, simply we will count the activity in each day for each user, and search for the same pattern we noticed for the suspects. this will get us the additional suspects. don't forget that we need there most used IP address.
+First, let's separate the suspects apart from the others and put them in a different two files. ok, now we need to look at the suspects activities, if we sort the file by "userid" and "date", we will see that the suspects have a non-constant number of activities each day, with a concentration of most of the activities in 2-3 days, interesting, so what about examin this behavior on others, simply we will count the activity in each day for each user, and search for the same pattern we noticed for the suspects. this will get us the additional suspects. don't forget that we need their most used IP address.
 
 See the solution code in Python. (be carefull, the IPs needs to be submitted as answer at the same order as the userids in ascending order).
 
