@@ -9,7 +9,7 @@ Usually, they start it with a simple entry challenge and advertise it over the i
 The challenge URL: https://www.israelneedsu.com
 
 This is my first repo and my first experience in Python.
-I actually liked Pythone, I found it easy and intuitive to develop with.
+I actually liked Python, I found it easy and intuitive to develop with.
 I hope you enjoy.
 
 ### Prerequisites
