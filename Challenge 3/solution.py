@@ -73,7 +73,7 @@ def sort_split_replace():
     csv_file.close()
 
             
-# build a victor of the number of activites on each day for each user. and search for the uniqe activities pattern.
+# build a vector of the number of activites on each day for each user. and search for the uniqe activities pattern.
 def checkDays():
     with open('log2no.csv') as log2:
         log2_reader = csv.reader(log2, delimiter=',')
@@ -83,7 +83,7 @@ def checkDays():
                 usrDict2[row[0]][int(row[2])-1] += 1
             else:
                 days = []
-                for d in range(0,31):
+                for d in range(0,32):
                     days.append(0)
                 usrDict2[row[0]] = days
                 usrDict2[row[0]][int(row[2])-1] = 1
@@ -91,7 +91,7 @@ def checkDays():
 
     for usr in usrDict2:
         days = 0
-        for d in range(0,31):
+        for d in range(0,32):
             if usrDict2[usr][d] > 100:
                 days += 1
                 if(days > 2):
