@@ -79,7 +79,7 @@ First, let's separate the suspects apart from the others and put them in a diffe
 
 See the solution code in Python. (be carefull, the IPs needs to be submitted as answer at the same order as the userids in ascending order).
 
-Another approach, we can see that the suspects activities from the most used IP occurred in constant time intervals, we can try and search a similar behavior on the other users. and this should give us the same result (it's a bit messy and not efficient so I didn't add the code for that).
+Another approach (solution2.py), we can see that the suspects activity logs from the most used IP occurred in constant time intervals, we can try and search a similar behavior on the other users. and this should give us the same result, it's a bit messy and less efficient but it's a deeper analysis, here is the code, consider making it multi-processed take advantage of your CPU cores.
 
 Feel free to give me advices and corrections
 
