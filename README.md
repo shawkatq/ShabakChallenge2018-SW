@@ -7,6 +7,7 @@ Shabak challenge 2018 - Software & Data Science
 Every year the Shabak launch a set of challenges in various tech areas, which helps them to recruit quality minds.
 Usually, they start it with a simple entry challenge and advertise it over the internet, after you solve it, you will get the complete challenges in various courses. 
 The challenge URL: https://www.israelneedsu.com
+Full write up: https://medium.com/@q.shawkat/shabak-challenge-2018-sw-solution-my-first-write-up-8661ce4511b7
 
 This is my first repo and my first experience in Python.
 I actually liked Python, I found it easy and intuitive to develop with.
